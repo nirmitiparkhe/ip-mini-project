@@ -1,0 +1,63 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, img, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and some spacing to the body */
+body {
+    background-color: #a2a8d3;
+    font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.whole {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e4f1fe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.c1 h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+}
+/* Center the headings and change the font */
+.c3 h2 
+{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+}
+.c4 h2{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+}
+.video h2{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+}
+.c2 h2 {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 360px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}

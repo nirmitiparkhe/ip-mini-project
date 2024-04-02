@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     background-image: url("study.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     overflow: hidden;
+  }   
+
+center {
+     margin-top: 50px;
+     }
+
+h1 {
+     color: #333;
+ }
+
+button {
+ padding: 10px 20px;
+ margin: 10px;
+ border: none;
+ border-radius: 5px;
+ background-color: #007bff;
+ color: #fff;
+ cursor: pointer;
+ }
+
+button:hover {
+ background-color: #0056b3;
+}
+
+form {
+ margin-top: 20px;
+}
+
+label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+ padding: 8px;
+ margin-bottom: 10px;
+ width: 200px;
+}
+
+button[type="submit"] {
+ background-color: #28a745;
+}
+
+pre {
+ margin-top: 20px;
+ font-style: italic;
+ color: #666;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <h1><b><u>WELCOME TO INTERNET PROGRAMMING</u></b></h1>
+        <br />
+        <div>
+            <form action="connect1.php" method="post">
+                <label for="email">email:</label>
+                <input type="text"required name="email">
+                <br />
+                <label for="email">password:</label>
+                <input type="password"required name="password">
+                <br />
+                <label for="email">confirm password:</label>
+                <input type="password"required name="cpswd">
+                <br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+</body>
+</html>
